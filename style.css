@@ -72,21 +72,72 @@ body{
     flex-grow: 3;
 }
 
-/* @media(min-width: 320px) and (max-width:1024px){
+@media(max-width: 1024px){
     .flex-container{
-        max-width: 80%;
-        height: 70vh;
-        margin: 50px;
+        max-width: 100%;
+        margin: 60px;
+        width: 800px;
+        height: 550px;
     }
-    
     .item-container{
-        height: 67vh;
+        height: 540px;
     }
     
     .item, .cal-item{
-        flex-basis: 75px;
+        flex-basis: 170px;
+        height: 85px;
+        font-size: 46px;
+    }
+    
+    .default{
+        font-size: 62px;
+    }
+    
+    .cancel{
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 820px){
+    .flex-container{
+        max-width: 100%;
+        margin: 60px;
+        width: 800px;
+        height: 550px;
+    }
+    .item-container{
+        height: 540px;
+    }
+    
+    .item, .cal-item{
+        flex-basis: 140px;
+        height: 85px;
+        font-size: 46px;
+    }
+    
+    .default{
+        font-size: 62px;
+    }
+    
+    .cancel{
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 680px){
+    .flex-container{
+        max-width: 100%;
+        margin: 30px;
+        height: 400px;
+    }
+    .item-container{
+        height: 390px;
+    }
+    
+    .item, .cal-item{
+        flex-basis: 68px;
         height: 55px;
-        font-size: 20px;
+        font-size: 26px;
     }
     
     .default{
@@ -98,28 +149,27 @@ body{
     }
 }
 
-@media(min-width: 1024px) and (max-width:1350px){
+@media(max-width: 400px){
     .flex-container{
-        max-width: 100%;
-        height: 100vh;
-        margin: 80px 180px;
+        max-width: 80%;
+        margin: 40px 0;
+        height: 280px;
     }
-    
     .item-container{
-        height: 97vh;
+        height: 270px;
     }
     
     .item, .cal-item{
-        flex-basis: 150px;
-        height: 90px;
-        font-size: 30px;
+        flex-basis: 36px;
+        height: 30px;
+        font-size: 18px;
     }
     
     .default{
-        font-size: 40px;
+        font-size: 24px;
     }
     
     .cancel{
-        font-size: 38px;
+        font-size: 22px;
     }
-} */
+}
